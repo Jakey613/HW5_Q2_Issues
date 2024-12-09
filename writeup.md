@@ -7,15 +7,15 @@ Below are the core logical contradictions—issues that, if followed as stated, 
 ### Stated vs. Example
 
 #### Stated Logic:
-• Food consumption rate: 12 kg per crew member per day.
-• One day = 24 hours, so per hour per crew member = 12 kg/24 = 0.5 kg/hour.
-• Total trip food (in kg) = crew_size × duration_in_hours × 0.5 kg/hour.
+• Food consumption rate: 12 kg per crew member per day.  
+• One day = 24 hours, so per hour per crew member = 12 kg/24 = 0.5 kg/hour.  
+• Total trip food (in kg) = crew_size × duration_in_hours × 0.5 kg/hour.  
 
 #### Example Given (Caravel, Example 1):
-• Duration: 300 hours
-• Crew: 15 members
-• Expected Food Consumption: 15 × 300 × 0.5 = 2250 kg
-• Provided Example Output: 1125 kg (exactly half)
+• Duration: 300 hours  
+• Crew: 15 members  
+• Expected Food Consumption: 15 × 300 × 0.5 = 2250 kg  
+• Provided Example Output: 1125 kg (exactly half)  
 
 ### Discrepancy
 
@@ -33,7 +33,7 @@ The question’s stated food consumption formula cannot produce the example’s 
 ### Potential Solution
 
 #### Adjust the Given Formula or Examples:
-• Either redefine the food consumption rate to match the example’s outcome (e.g., 6 kg/day/crew instead of 12 kg/day/crew) or correct the example to show 2250 kg of food.
+• Either redefine the food consumption rate to match the example’s outcome (e.g., 6 kg/day/crew instead of 12 kg/day/crew) or correct the example to show 2250 kg of food.  
 • Without this correction, the logic and the example are irreconcilable.
 
 ## Issue 2: Cargo Capacity and Revenue Mismatch after Accounting for Fuel and Food
